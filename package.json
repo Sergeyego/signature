@@ -1,0 +1,19 @@
+{
+  "name": "signature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trusted-pdf/pdf": "file:trusted-pdf-pdf.tar",
+    "@trusted-pdf/sign": "file:trusted-pdf-sign.tar",
+    "canvas": "^3.1.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "n-cryptopro": "file:n-cryptopro-master.tar"
+  }
+}

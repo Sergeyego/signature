@@ -1,0 +1,39 @@
+{
+  "name": "n-cryptopro",
+  "version": "1.0.0",
+  "description": "Модуль для работы c КриптоПРО CSP в Node.js",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "typedoc": "typedoc --disableSources --plugin typedoc-plugin-markdown --out docs index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickdevel/n-cryptopro"
+  },
+  "keywords": [
+    "crypto",
+    "cryptopro",
+    "криптопро",
+    "cades",
+    "xades",
+    "xmldsig",
+    "gost",
+    "гост"
+  ],
+  "author": "Maxim Krasnov <quickdevel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quickdevel/n-cryptopro/issues"
+  },
+  "homepage": "https://github.com/quickdevel/n-cryptopro#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "typedoc": "^0.23.9",
+    "typedoc-plugin-markdown": "^3.13.4"
+  }
+}
