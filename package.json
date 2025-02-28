@@ -11,6 +11,7 @@
   "dependencies": {
     "@trusted-pdf/pdf": "file:trusted-pdf-pdf.tar",
     "@trusted-pdf/sign": "file:trusted-pdf-sign.tar",
+    "body-parser": "^1.20.3",
     "canvas": "^3.1.0",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
