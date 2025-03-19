@@ -79,7 +79,7 @@ app.post("/pdf/:sn", async (req, res) => {
         const img = new Image();
         img.onload = () => ctx.drawImage(img, 0, 0,600,252);
         img.onerror = err => { throw err };
-        img.src = 'signature.jpg';
+        img.src = __dirname+'/signature.jpg';
         ctx.font = '20px Arial';
         ctx.fillStyle = 'rgb(17, 44, 87)';
         ctx.fillText('Сертификат: '+getSerialNumber(cert), 20, 150);
